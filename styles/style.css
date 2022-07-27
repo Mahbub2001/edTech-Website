@@ -4,3 +4,6 @@
 .car-img{
     filter: brightness(50%);
 }
+.card-back{
+    background-color: #e5f5ff;
+}
