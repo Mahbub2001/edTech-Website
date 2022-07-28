@@ -4,6 +4,9 @@
 .car-img{
     filter: brightness(50%);
 }
+.carousel-text{
+    padding-bottom: 25%;
+}
 .card-back{
     background-color: #e5f5ff;
 }
@@ -17,17 +20,22 @@
     gap: 2rem;
 }
 .c-btn-left{
-    left: -7%;
+    left: -8%;
 }
 .c-btn-right{
-    right: -7%;
+    right: -8%;
 }
 /* tablet */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-
+    .carousel-text{
+        padding-bottom: 5%;
+    }
 .modal-div{
     text-align: center;
     flex-direction: column;
+}
+.course-hide{
+    display: none;
 }
 .view-all{
     display: none;
@@ -48,6 +56,12 @@
 /* Mobile */
 @media only screen and (max-width: 767px) {
 
+    .carousel-text{
+        padding-bottom: 0%;
+    }
+    .course-hide{
+        display: none;
+    }
     .modal-div{
         text-align: center;
         flex-direction: column;
