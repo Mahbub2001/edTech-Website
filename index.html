@@ -338,8 +338,8 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <button type="button" class="btn btn-primary px-3 py-2">
+        <div class="d-flex justify-content-center ">
+          <button type="button" class="btn btn-primary px-3 py-2 more-course">
             See More Courses
           </button>
         </div>
@@ -396,7 +396,7 @@
                     type="button"
                     class="btn btn-primary rounded-2 px-4 py-2"
                   >
-                    Primary
+                    Read More
                   </button>
                 </div>
               </div>
@@ -406,7 +406,97 @@
       </section>
 
       <!-- modal section -->
-      
+      <section class="modal-background mt-5">
+        <div class="d-flex justify-content-around align-items-center p-5 modal-div">
+            <div class="text-white">
+              <h1>Ready to join?</h1>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div>
+             <button type="button" class="btn btn-outline-primary bg-white fw-bold border-0 text-dark btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Register Now
+             </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                      <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Username</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Gender</label>
+                        <select class="form-select" id="validationCustom04" required>
+                          <option selected disabled value="">Choose</option>
+                          <option>Male</option>
+                          <option>Famale</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please select a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label" for="invalidCheck">
+                            Agree to <a href="">Terms and conditions</a>
+                          </label>
+                          <div class="invalid-feedback">
+                            You must agree before submitting.
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+               </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
